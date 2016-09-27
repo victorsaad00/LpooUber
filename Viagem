@@ -12,16 +12,18 @@ public class Viagem {
 	private Lugar destino;
 	private double valorViagem;
 	private String formaPagamento;
-
+	
+	
+	
 	//Construtor da classe viagem.
-	public Viagem(long id, double valorViagem, String formaPagamento, Lugar origem, Lugar destino, Motorista motorista, Solicitante cliente) {
-		super();
+	public Viagem(long id,Solicitante cliente,Motorista motorista,Lugar origem,Lugar destino, double valorViagem,String formaPagamento) {
 		this.id = id;
-		this.formaPagamento = formaPagamento;
-		this.destino = destino;
-		this.origem = origem;
-		this.motorista = motorista;
 		this.cliente = cliente;
+		this.motorista = motorista;
+		this.origem = origem;
+		this.destino = destino;
+		this.valorViagem = valorViagem;
+		this.formaPagamento = formaPagamento;
 	}
 	
 	//Gets e Sets.
