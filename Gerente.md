@@ -28,7 +28,7 @@ public class Gerente {
 	//Os metodos a seguir estão com tipo de retorno "void" pois ainda não foi especificado o retorno.
 	
 	//O Método cadastrar gerente recebe como entrada o objeto Motorista.
-	public void cadastrarMotorista(long id, String cpf, String nome, String senha, String email, String genero){
+	public void cadastrarMotorista(){
 	
 		
 	}
