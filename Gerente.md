@@ -14,7 +14,7 @@ public class Gerente {
 	private String nome;
 	private String senha;
 	private String email;
-	private String sexo; 	// Relacionado ao gêreno.
+	private String sexo; 
 	
 	Gerente (long id, String cpf, String nome, String senha, String email, String sexo){
 		this.id = id;
