@@ -14,21 +14,21 @@ public class Gerente {
 	private String nome;
 	private String senha;
 	private String email;
-	private String genero; 	// Relacionado ao gêreno.
+	private String sexo; 	// Relacionado ao gêreno.
 	
-	Gerente (long id, String cpf, String nome, String senha, String email, String genero){
+	Gerente (long id, String cpf, String nome, String senha, String email, String sexo){
 		this.id = id;
 		this.cpf = cpf;
 		this.nome = nome;
 		this.senha = senha;
 		this.email = email;
-		this.genero = genero;
+		this.sexo = sexo;
 	}
 
 	//Os metodos a seguir estão com tipo de retorno "void" pois ainda não foi especificado o retorno.
 	
 	//O Método cadastrar gerente recebe como entrada o objeto Motorista.
-	public void cadastrarGerente(long id, String cpf, String nome, String senha, String email, String genero){
+	public void cadastrarMotorista(long id, String cpf, String nome, String senha, String email, String genero){
 	
 		
 	}
@@ -85,16 +85,11 @@ public class Gerente {
 		this.email = email;
 	}
 
-	public String getGenero() {
-		return genero;
+	public String getSexo() {
+		return sexo;
 	}
 
-	public void setGenero(String genero) {
-		this.genero = genero;
+	public void setSexo(String sexo) {
+		this.sexo = sexo;
 	}
-}//Término da classe Gerente.
-	
-
-/*
-classe Gerente que é o responsável, dentre outros, por cadastrar e remover Motoristas. 
-*/
+}
