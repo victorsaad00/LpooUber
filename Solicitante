@@ -7,6 +7,7 @@ import java.util.Date;
 
 
 public class Solicitante {
+	Date Data = new Date();
 	
 	//declaração de atributos.
 	private long id;
@@ -21,7 +22,7 @@ public class Solicitante {
 	private Viagem[] viagens;
 	
 	public Solicitante(long id, String cpf, String email, String senha, String nome, String sexo, Date dataNascimento,
-			int numeroCelular, Lugar[] lugares, Viagem[] viagens) {
+			int numeroCelular) {
 		super();
 		this.id = id;
 		this.cpf = cpf;
@@ -31,8 +32,6 @@ public class Solicitante {
 		this.sexo = sexo;
 		this.dataNascimento = dataNascimento;
 		this.numeroCelular = numeroCelular;
-		this.lugares = lugares;
-		this.viagens = viagens;
 	}//término do construtor.
 	
 	//declaração do metodo solicitarCarona. Tipo de retorno void porque não se foi espeficiado o retorno ainda.
