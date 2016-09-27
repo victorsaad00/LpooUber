@@ -15,8 +15,7 @@ public class Motorista {
 	private boolean disponivel;
 	private Viagem[] viagens;
 
-	public Motorista(long id, String cpf, String email, String senha, String nome, String sexo, boolean disponivel,
-			Viagem[] viagens) {
+	public Motorista(long id, String cpf, String email, String senha, String nome, String sexo, boolean disponivel) {
 		super();
 		this.id = id;
 		this.cpf = cpf;
@@ -25,7 +24,6 @@ public class Motorista {
 		this.nome = nome;
 		this.sexo = sexo;
 		this.disponivel = disponivel;
-		this.viagens = viagens;
 	}
 	
 	//Nesse método o Motorista informa se pode fazer o não a viagem. Caso sim, é necessário criar um objeto Viagem.
