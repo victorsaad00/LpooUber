@@ -17,12 +17,11 @@ public class Solicitante {
 	private String sexo;
 	private Date dataNascimento;
 	private int numeroCelular;
+	private Lugar[] lugares;
+	private Viagem[] viagens;
 	
-	// À verificar. Por causa de array.
-	private String lugares;
-	private String viagens;
 	public Solicitante(long id, String cpf, String email, String senha, String nome, String sexo, Date dataNascimento,
-			int numeroCelular, String lugares, String viagens) {
+			int numeroCelular, Lugar[] lugares, Viagem[] viagens) {
 		super();
 		this.id = id;
 		this.cpf = cpf;
@@ -40,7 +39,6 @@ public class Solicitante {
 	public void solicitarCarona(){
 		
 	}
-	
 	/*
  	Esse método deve cancelar uma requisição de carona. Se o cancelamento ocorrer após um definido período de tempo, o
 	Cliente deve pagar um valor padrão.
