@@ -13,11 +13,10 @@ public class Motorista {
 	private String nome;
 	private String sexo;
 	private boolean disponivel;
-	//À conferir.
-	private String[] viagens;
+	private Viagem[] viagens;
 
 	public Motorista(long id, String cpf, String email, String senha, String nome, String sexo, boolean disponivel,
-			String[] viagens) {
+			Viagem[] viagens) {
 		super();
 		this.id = id;
 		this.cpf = cpf;
@@ -38,3 +37,5 @@ public class Motorista {
 	public void historico(){
 		
 	}
+	
+}//Término da classe Motorista.
