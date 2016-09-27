@@ -1,5 +1,3 @@
-# LpooUber
-Starting.
 package Uber;
 
 //Todos os metodos estão com retorno void porque não foi especificado seu retorno ainda.
