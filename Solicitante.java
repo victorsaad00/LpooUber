@@ -1,0 +1,50 @@
+package teletuber;
+
+import java.util.Date;
+
+public class Solicitante {
+
+	Date Data = new Date();
+	
+	//declaração de atributos.
+	private long id;
+	private String cpf;
+	private String email;
+	private String senha;
+	private String nome;
+	private String sexo;
+	private Date dataNascimento;
+	private int numeroCelular;
+	private Lugar[] lugares;
+	private Viagem[] viagens;
+
+	public Solicitante(long id, String cpf, String email, String senha, String nome, String sexo, Date dataNascimento, int numeroCelular) {
+		super();
+		this.id = id;
+		this.cpf = cpf;
+		this.email = email;
+		this.senha = senha;
+		this.nome = nome;
+		this.sexo = sexo;
+		this.dataNascimento = dataNascimento;
+		this.numeroCelular = numeroCelular;
+		
+	}//término do construtor.
+
+	//declaração do metodo solicitarCarona. Tipo de retorno void porque não se foi espeficiado o retorno ainda.
+	public void solicitarCarona(){
+
+	}
+	/*
+ 	Esse método deve cancelar uma requisição de carona. Se o cancelamento ocorrer após um definido período de tempo, o
+	Cliente deve pagar um valor padrão.
+	 */
+	public void cancelarCarona(){
+
+	}
+
+	//Lista de todas as viagens do usuário.
+	public void historico(){
+
+	}
+}
